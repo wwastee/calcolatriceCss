@@ -7,7 +7,7 @@
 body{
     display: flex;
     position: relative;
-    background: ivory;
+    background: rgb(142, 142, 142);
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -16,7 +16,7 @@ body{
 
 .calculator{
     width: 400px;
-    background: #FD5901;
+    background: #f78104;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 8px 8px 16px 0 rgba(0,0,0,10),
@@ -32,8 +32,8 @@ body{
     font-size: 30px;
     color: black;
     border-radius: 4px;
-    background: linear-gradient(lightgrey, white);
-    border: 2px solid darkorange;
+    background: white;
+    /*border: 2px solid darkorange;*/
     user-select: none;
 }
 
@@ -50,34 +50,51 @@ body{
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 700;
-    background: darkgoldenrod;
+    background: #faab36;
     color: beige;
     border-radius: 5px;
-    border: 1px solid rgba(255, 196, 0, 0.866);
+    border: 1px solid #fa8e36;
     cursor: pointer;
-    box-shadow: 8px 8px 16px 0 rgba(0,0,0,.25),
-    inset -8px -8px 16px 0 rgba(0,0,0,.25),
-    inset 8px 8px 16px 0 rgba(83,69,152,.2);
+    /*box-shadow: 8px 8px 16px 0 rgba(0,0,0,.25),
+    inset -3px -3px 16px 0 rgba(0, 0, 0, 0.24),
+    inset 3px 3px 16px 0 rgba(255, 255, 255, 0.657);*/
 }
 
 .calculator button:hover{
-    background: lightsalmon;
+    background: rgb(237, 73, 8);
     transform: scale(1.05);
 }
 
 .calculatorBTN .uguale{
-    background: black;
-    border-color: white;
+    background: #249ea0;
+    border-color: none;
+    box-shadow: none;
 }
 
 .calculatorBTN .delete{
-    background: black;
-    border-color: white;
+    background: rgb(3, 87, 148);
+    border-color: none;
+    box-shadow: none;
 }
 
 .calculatorBTN .ce{
-    background: black;
-    border-color: white;
+    background: rgb(77, 4, 201);
+    border-color: none;
+    box-shadow: none;
+    
 }
+
+.calculatorBTN .ce:hover{
+    background: rgb(146, 83, 255);
+}
+
+.calculatorBTN .delete:hover{
+    background: rgb(13, 131, 215);
+}
+
+.calculatorBTN .uguale:hover{
+    background: #00fbff;
+}
+
     
 
